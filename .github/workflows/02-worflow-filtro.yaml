@@ -9,4 +9,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: exibir evento
-              run: echo"workflow disparado por ${{ github.event_name }}"
+              run: echo "workflow disparado por ${{ github.event_name }}"
